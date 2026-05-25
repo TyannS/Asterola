@@ -47,13 +47,6 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/golden_chestplate_emerald_trim"
-        },
-        "when": "minecraft:emerald"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
           "model": "minecraft:item/golden_chestplate_diamond_trim"
         },
         "when": "minecraft:diamond"
@@ -85,6 +78,13 @@
           "model": "minecraft:item/golden_chestplate_rose_gold_trim"
         },
         "when": "asterola:rose_gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_chestplate_emerald_trim"
+        },
+        "when": "minecraft:emerald"
       }
     ],
     "fallback": {

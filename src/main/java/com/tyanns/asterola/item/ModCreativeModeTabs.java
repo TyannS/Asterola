@@ -33,6 +33,16 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ROSE_GOLDEN_CHESTPLATE);
                 output.accept(ModItems.ROSE_GOLDEN_LEGGINGS);
                 output.accept(ModItems.ROSE_GOLDEN_BOOTS);
+                output.accept(ModItems.EMERALD_SWORD);
+                output.accept(ModItems.EMERALD_SHOVEL);
+                output.accept(ModItems.EMERALD_PICKAXE);
+                output.accept(ModItems.EMERALD_AXE);
+                output.accept(ModItems.EMERALD_HOE);
+                output.accept(ModItems.EMERALD_SPEAR);
+                output.accept(ModItems.EMERALD_HELMET);
+                output.accept(ModItems.EMERALD_CHESTPLATE);
+                output.accept(ModItems.EMERALD_LEGGINGS);
+                output.accept(ModItems.EMERALD_BOOTS);
                 output.accept(ModItems.MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION);
             }).build();
 

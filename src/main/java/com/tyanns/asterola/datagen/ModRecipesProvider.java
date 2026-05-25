@@ -141,6 +141,96 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
                         .unlockedBy("has_apple", has(Items.APPLE))
                         .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SWORD)
+                        .pattern("X")
+                        .pattern("X")
+                        .pattern("#")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
+                        .pattern("X")
+                        .pattern("#")
+                        .pattern("#")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
+                        .pattern("XXX")
+                        .pattern(" # ")
+                        .pattern(" # ")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE)
+                        .pattern("XX")
+                        .pattern("X#")
+                        .pattern(" #")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
+                        .pattern("XX")
+                        .pattern(" #")
+                        .pattern(" #")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SPEAR)
+                        .pattern("  X")
+                        .pattern(" # ")
+                        .pattern("#  ")
+                        .define('#', Items.STICK)
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .unlockedBy("has_stick", has(Items.STICK))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET)
+                        .pattern("XXX")
+                        .pattern("X X")
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE)
+                        .pattern("X X")
+                        .pattern("XXX")
+                        .pattern("XXX")
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS)
+                        .pattern("XXX")
+                        .pattern("X X")
+                        .pattern("X X")
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .save(recipeOutput);
+
+                shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS)
+                        .pattern("X X")
+                        .pattern("X X")
+                        .define('X', Items.EMERALD)
+                        .unlockedBy("has_emerald", has(Items.EMERALD))
+                        .save(recipeOutput);
             }
         };
     }

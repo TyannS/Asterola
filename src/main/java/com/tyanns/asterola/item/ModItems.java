@@ -29,6 +29,16 @@ public class ModItems {
     public static final Item ROSE_GOLDEN_CHESTPLATE = registerItem("rose_golden_chestplate", RoseGoldenChestplateItem::new);
     public static final Item ROSE_GOLDEN_LEGGINGS = registerItem("rose_golden_leggings", RoseGoldenLeggingsItem::new);
     public static final Item ROSE_GOLDEN_BOOTS = registerItem("rose_golden_boots", RoseGoldenBootsItem::new);
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword", EmeraldSwordItem::new);
+    public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel", EmeraldShovelItem::new);
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe", EmeraldPickaxeItem::new);
+    public static final Item EMERALD_AXE =registerItem("emerald_axe", EmeraldAxeItem::new);
+    public static final Item EMERALD_HOE =registerItem("emerald_hoe", EmeraldHoeItem::new);
+    public static final Item EMERALD_SPEAR =registerItem("emerald_spear", EmeraldSpearItem::new);
+    public static final Item EMERALD_HELMET =registerItem("emerald_helmet", EmeraldHelmetItem::new);
+    public static final Item EMERALD_CHESTPLATE =registerItem("emerald_chestplate", EmeraldChestplateItem::new);
+    public static final Item EMERALD_LEGGINGS =registerItem("emerald_leggings", EmeraldLeggingsItem::new);
+    public static final Item EMERALD_BOOTS =registerItem("emerald_boots", EmeraldBootsItem::new);
     public static final Item MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION = registerItem("music_disc_you_are_beautiful_vomit_version", (new Item.Properties()).stacksTo(1).rarity(Rarity.UNCOMMON).jukeboxPlayable(ModJukeboxSongs.YOU_ARE_BEAUTIFUL_VOMIT_VERSION));
 
     private static Item registerItem(final String name, final Function<Item.Properties, Item> itemFactory, final Item.Properties properties) {

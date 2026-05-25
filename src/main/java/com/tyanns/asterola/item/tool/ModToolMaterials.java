@@ -13,4 +13,13 @@ public class ModToolMaterials {
             28,
             ModItemTags.ROSE_GOLD_TOOL_MATERIALS
     );
+
+    public static final ToolMaterial EMERALD = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            1200,
+            8.0F,
+            3.0F,
+            15,
+            ModItemTags.EMERALD_TOOL_MATERIALS
+    );
 }

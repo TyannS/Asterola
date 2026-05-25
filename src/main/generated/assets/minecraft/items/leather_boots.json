@@ -83,19 +83,6 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_emerald_trim",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
-        },
-        "when": "minecraft:emerald"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
           "model": "minecraft:item/leather_boots_diamond_trim",
           "tints": [
             {
@@ -157,6 +144,19 @@
           ]
         },
         "when": "asterola:rose_gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_boots_emerald_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:emerald"
       }
     ],
     "fallback": {

@@ -22,7 +22,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.equipment.EquipmentAsset;
 import net.minecraft.world.item.equipment.EquipmentAssets;
+import net.minecraft.world.item.equipment.trim.MaterialAssetGroup;
 import net.minecraft.world.item.equipment.trim.TrimMaterial;
+import net.minecraft.world.item.equipment.trim.TrimMaterials;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +38,9 @@ public class ModModelsProvider extends FabricModelProvider {
 
     private static final List<ItemModelGenerators.TrimMaterialData> CUSTOM_TRIM_MATERIAL_MODELS = Util.make(new ArrayList<>(), list -> {
         list.addAll(ItemModelGenerators.TRIM_MATERIAL_MODELS);
+        list.remove(6); //remove vanilla emerald
         list.add(new ItemModelGenerators.TrimMaterialData(ModMaterialAssetGroup.ROSE_GOLD, ModTrimMaterials.ROSE_GOLD));
+        list.add(new ItemModelGenerators.TrimMaterialData(ModMaterialAssetGroup.EMERALD, TrimMaterials.EMERALD));
     });
 
     public final void generateCustomTrimmableItem(
@@ -89,6 +93,12 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.ROSE_GOLDEN_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.ROSE_GOLDEN_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateSpear(ModItems.ROSE_GOLDEN_SPEAR);
+        itemModelGenerators.generateFlatItem(ModItems.EMERALD_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.EMERALD_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.EMERALD_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.EMERALD_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.EMERALD_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateSpear(ModItems.EMERALD_SPEAR);
         itemModelGenerators.generateFlatItem(ModItems.MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION, ModelTemplates.MUSIC_DISC);
 
         this.generateCustomTrimmableItem(itemModelGenerators, Items.TURTLE_HELMET, EquipmentAssets.TURTLE_SCUTE, TRIM_PREFIX_HELMET, false);
@@ -124,5 +134,9 @@ public class ModModelsProvider extends FabricModelProvider {
         this.generateCustomTrimmableItem(itemModelGenerators, ModItems.ROSE_GOLDEN_CHESTPLATE, ModEquipmentAssets.ROSE_GOLD, TRIM_PREFIX_CHESTPLATE, false);
         this.generateCustomTrimmableItem(itemModelGenerators, ModItems.ROSE_GOLDEN_LEGGINGS, ModEquipmentAssets.ROSE_GOLD, TRIM_PREFIX_LEGGINGS, false);
         this.generateCustomTrimmableItem(itemModelGenerators, ModItems.ROSE_GOLDEN_BOOTS, ModEquipmentAssets.ROSE_GOLD, TRIM_PREFIX_BOOTS, false);
+        this.generateCustomTrimmableItem(itemModelGenerators, ModItems.EMERALD_HELMET, ModEquipmentAssets.EMERALD, TRIM_PREFIX_HELMET, false);
+        this.generateCustomTrimmableItem(itemModelGenerators, ModItems.EMERALD_CHESTPLATE, ModEquipmentAssets.EMERALD, TRIM_PREFIX_CHESTPLATE, false);
+        this.generateCustomTrimmableItem(itemModelGenerators, ModItems.EMERALD_LEGGINGS, ModEquipmentAssets.EMERALD, TRIM_PREFIX_LEGGINGS, false);
+        this.generateCustomTrimmableItem(itemModelGenerators, ModItems.EMERALD_BOOTS, ModEquipmentAssets.EMERALD, TRIM_PREFIX_BOOTS, false);
     }
 }

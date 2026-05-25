@@ -8,6 +8,7 @@ import net.minecraft.world.item.equipment.EquipmentAssets;
 
 public interface ModEquipmentAssets {
     ResourceKey<EquipmentAsset> ROSE_GOLD = createId("rose_gold");
+    ResourceKey<EquipmentAsset> EMERALD = createId("emerald");
 
     static ResourceKey<EquipmentAsset> createId(final String name) {
         return ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.fromNamespaceAndPath(Asterola.MOD_ID, name));

@@ -19,6 +19,16 @@ public interface ModArmorMaterials {
             ModEquipmentAssets.ROSE_GOLD
     );
 
+    ArmorMaterial EMERALD = new ArmorMaterial(
+            30,
+            makeDefense(3, 6, 8, 3, 10),
+            20, ModSoundEvents.ARMOR_EQUIP_EMERALD,
+            2.0F,
+            0.0F,
+            ModItemTags.REPAIRS_EMERALD_ARMOR,
+            ModEquipmentAssets.EMERALD
+    );
+
     static Map<ArmorType, Integer> makeDefense(final int boots, final int legs, final int chest, final int helm, final int body) {
         return Maps.newEnumMap(Map.of(ArmorType.BOOTS, boots, ArmorType.LEGGINGS, legs, ArmorType.CHESTPLATE, chest, ArmorType.HELMET, helm, ArmorType.BODY, body));
     }

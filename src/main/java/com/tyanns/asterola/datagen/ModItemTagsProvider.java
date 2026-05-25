@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -21,34 +22,44 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.ROSE_GOLD_INGOT);
 
         valueLookupBuilder(ItemTags.SWORDS)
-                .add(ModItems.ROSE_GOLDEN_SWORD);
+                .add(ModItems.ROSE_GOLDEN_SWORD)
+                .add(ModItems.EMERALD_SWORD);
 
         valueLookupBuilder(ItemTags.SHOVELS)
-                .add(ModItems.ROSE_GOLDEN_SHOVEL);
+                .add(ModItems.ROSE_GOLDEN_SHOVEL)
+                .add(ModItems.EMERALD_SHOVEL);
 
         valueLookupBuilder(ItemTags.PICKAXES)
-                .add(ModItems.ROSE_GOLDEN_PICKAXE);
+                .add(ModItems.ROSE_GOLDEN_PICKAXE)
+                .add(ModItems.EMERALD_PICKAXE);
 
         valueLookupBuilder(ItemTags.AXES)
-                .add(ModItems.ROSE_GOLDEN_AXE);
+                .add(ModItems.ROSE_GOLDEN_AXE)
+                .add(ModItems.EMERALD_AXE);
 
         valueLookupBuilder(ItemTags.HOES)
-                .add(ModItems.ROSE_GOLDEN_HOE);
+                .add(ModItems.ROSE_GOLDEN_HOE)
+                .add(ModItems.EMERALD_HOE);
 
         valueLookupBuilder(ItemTags.SPEARS)
-                .add(ModItems.ROSE_GOLDEN_SPEAR);
+                .add(ModItems.ROSE_GOLDEN_SPEAR)
+                .add(ModItems.EMERALD_SPEAR);
 
         valueLookupBuilder(ItemTags.HEAD_ARMOR)
-                .add(ModItems.ROSE_GOLDEN_HELMET);
+                .add(ModItems.ROSE_GOLDEN_HELMET)
+                .add(ModItems.EMERALD_HELMET);
 
         valueLookupBuilder(ItemTags.CHEST_ARMOR)
-                .add(ModItems.ROSE_GOLDEN_CHESTPLATE);
+                .add(ModItems.ROSE_GOLDEN_CHESTPLATE)
+                .add(ModItems.EMERALD_CHESTPLATE);
 
         valueLookupBuilder(ItemTags.LEG_ARMOR)
-                .add(ModItems.ROSE_GOLDEN_LEGGINGS);
+                .add(ModItems.ROSE_GOLDEN_LEGGINGS)
+                .add(ModItems.EMERALD_LEGGINGS);
 
         valueLookupBuilder(ItemTags.FOOT_ARMOR)
-                .add(ModItems.ROSE_GOLDEN_BOOTS);
+                .add(ModItems.ROSE_GOLDEN_BOOTS)
+                .add(ModItems.EMERALD_BOOTS);
 
         valueLookupBuilder(ModItemTags.ROSE_GOLD_TOOL_MATERIALS)
                 .add(ModItems.ROSE_GOLD_INGOT);
@@ -61,5 +72,33 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.ROSE_GOLDEN_CHESTPLATE)
                 .add(ModItems.ROSE_GOLDEN_LEGGINGS)
                 .add(ModItems.ROSE_GOLDEN_BOOTS);
+
+        valueLookupBuilder(ModItemTags.ROSE_GOLD_TOOL)
+                .add(ModItems.ROSE_GOLDEN_SWORD)
+                .add(ModItems.ROSE_GOLDEN_SHOVEL)
+                .add(ModItems.ROSE_GOLDEN_PICKAXE)
+                .add(ModItems.ROSE_GOLDEN_AXE)
+                .add(ModItems.ROSE_GOLDEN_HOE)
+                .add(ModItems.ROSE_GOLDEN_SPEAR);
+
+        valueLookupBuilder(ModItemTags.EMERALD_TOOL_MATERIALS)
+                .add(Items.EMERALD);
+
+        valueLookupBuilder(ModItemTags.REPAIRS_EMERALD_ARMOR)
+                .add(Items.EMERALD);
+
+        valueLookupBuilder(ModItemTags.EMERALD_ARMOR)
+                .add(ModItems.EMERALD_HELMET)
+                .add(ModItems.EMERALD_CHESTPLATE)
+                .add(ModItems.EMERALD_LEGGINGS)
+                .add(ModItems.EMERALD_BOOTS);
+
+        valueLookupBuilder(ModItemTags.EMERALD_TOOL)
+                .add(ModItems.EMERALD_SWORD)
+                .add(ModItems.EMERALD_SHOVEL)
+                .add(ModItems.EMERALD_PICKAXE)
+                .add(ModItems.EMERALD_AXE)
+                .add(ModItems.EMERALD_HOE)
+                .add(ModItems.EMERALD_SPEAR);
     }
 }
