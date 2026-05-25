@@ -51,8 +51,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("armortip.asterola.rose_gold_armortip.shift","§d当装备全套玫瑰金盔甲时，将会获得§r§d§n迅捷II§r§r§d的效果§r");
         translationBuilder.add("armortip.asterola.emerald_armortip","§6§n[SHIFT]§r§r");
         translationBuilder.add("armortip.asterola.emerald_armortip.shift","§2当装备全套绿宝石盔甲时，将会获得§r§2§n村庄英雄V§r§r§2的效果§r");
-        translationBuilder.add("tooltip.asterola.emerald_tooltip_1","§2闪烁的财富之光让万物倍增§r");
-        translationBuilder.add("tooltip.asterola.emerald_tooltip_2","§2使当前的§r§2§n时运§r§r§2与§r§2§n抢夺§r§r§2等级提升1级§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip","§6§n[SHIFT]§r§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip.shift_1","§2闪烁的财富之光让万物倍增§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip.shift_2","§2使当前的§r§2§n时运§r§r§2与§r§2§n抢夺§r§r§2等级提升1级§r");
 
         translationBuilder.add("jukebox_song.asterola.you_are_beautiful_vomit_version", "Tiktok@justinjmooremusic - You Are Beautiful（呕吐版）");
 

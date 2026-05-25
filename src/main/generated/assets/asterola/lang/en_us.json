@@ -32,7 +32,8 @@
   "jukebox_song.asterola.you_are_beautiful_vomit_version": "Tiktok@justinjmooremusic - You Are Beautiful (Vomit Version)",
   "subtitles.item.armor.equip_emerald": "Emerald armor clanks",
   "subtitles.item.armor.equip_rose_gold": "Rose gold armor clinks",
-  "tooltip.asterola.emerald_tooltip_1": "§2The glittering light of wealth multiplies all things§r",
-  "tooltip.asterola.emerald_tooltip_2": "§2Increases current §r§2§nFortune§r§r§2 and §r§2§nLooting§r§r§2 by 1 level§r",
+  "tooltip.asterola.emerald_tooltip": "§6§n[SHIFT]§r§r",
+  "tooltip.asterola.emerald_tooltip.shift_1": "§2The glittering light of wealth multiplies all things§r",
+  "tooltip.asterola.emerald_tooltip.shift_2": "§2Increases current §r§2§nFortune§r§r§2 and §r§2§nLooting§r§r§2 by 1 level§r",
   "trim_material.asterola.rose_gold": "Rose Gold Material"
 }

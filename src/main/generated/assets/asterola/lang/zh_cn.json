@@ -32,7 +32,8 @@
   "jukebox_song.asterola.you_are_beautiful_vomit_version": "Tiktok@justinjmooremusic - You Are Beautiful（呕吐版）",
   "subtitles.item.armor.equip_emerald": "绿宝石盔甲：铿锵",
   "subtitles.item.armor.equip_rose_gold": "玫瑰金盔甲：叮当",
-  "tooltip.asterola.emerald_tooltip_1": "§2闪烁的财富之光让万物倍增§r",
-  "tooltip.asterola.emerald_tooltip_2": "§2使当前的§r§2§n时运§r§r§2与§r§2§n抢夺§r§r§2等级提升1级§r",
+  "tooltip.asterola.emerald_tooltip": "§6§n[SHIFT]§r§r",
+  "tooltip.asterola.emerald_tooltip.shift_1": "§2闪烁的财富之光让万物倍增§r",
+  "tooltip.asterola.emerald_tooltip.shift_2": "§2使当前的§r§2§n时运§r§r§2与§r§2§n抢夺§r§r§2等级提升1级§r",
   "trim_material.asterola.rose_gold": "玫瑰金质"
 }

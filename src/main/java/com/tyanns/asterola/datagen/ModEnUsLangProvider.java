@@ -51,8 +51,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("armortip.asterola.rose_gold_armortip.shift","§dGrants §r§d§nSpeed II§r§r§d when wearing a full set of Rose Gold Armor§r");
         translationBuilder.add("armortip.asterola.emerald_armortip","§6§n[SHIFT]§r§r");
         translationBuilder.add("armortip.asterola.emerald_armortip.shift","§2Grants §r§2§nHero of the Village V§r§r§2 when wearing a full set of Emerald Armor§r");
-        translationBuilder.add("tooltip.asterola.emerald_tooltip_1","§2The glittering light of wealth multiplies all things§r");
-        translationBuilder.add("tooltip.asterola.emerald_tooltip_2","§2Increases current §r§2§nFortune§r§r§2 and §r§2§nLooting§r§r§2 by 1 level§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip","§6§n[SHIFT]§r§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip.shift_1","§2The glittering light of wealth multiplies all things§r");
+        translationBuilder.add("tooltip.asterola.emerald_tooltip.shift_2","§2Increases current §r§2§nFortune§r§r§2 and §r§2§nLooting§r§r§2 by 1 level§r");
 
         translationBuilder.add("jukebox_song.asterola.you_are_beautiful_vomit_version", "Tiktok@justinjmooremusic - You Are Beautiful (Vomit Version)");
 
