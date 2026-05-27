@@ -17,7 +17,14 @@
       "minecraft:entity_data": {
         "id": "minecraft:item_frame",
         "Invisible": true
-      }
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.asterola.invisible_item_frame.description",
+          "italic": false,
+          "color": "gray"
+        }
+      ]
     }
   }
 }
