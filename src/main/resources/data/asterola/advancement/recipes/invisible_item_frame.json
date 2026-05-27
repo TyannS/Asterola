@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rose_gold_ingot": {
+    "has_phantom_membrane": {
       "conditions": {
         "items": [
           {
-            "items": "asterola:rose_gold_ingot"
+            "items": "minecraft:phantom_membrane"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "asterola:rose_golden_hoe"
+        "recipe": "asterola:invisible_item_frame"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_rose_gold_ingot"
+      "has_phantom_membrane"
     ]
   ],
   "rewards": {
     "recipes": [
-      "asterola:rose_golden_hoe"
+      "asterola:invisible_item_frame"
     ]
   }
 }

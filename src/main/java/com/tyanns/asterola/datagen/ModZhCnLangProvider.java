@@ -2,6 +2,7 @@ package com.tyanns.asterola.datagen;
 
 import com.tyanns.asterola.block.ModBlocks;
 import com.tyanns.asterola.item.ModItems;
+import com.tyanns.asterola.sound.ModSoundEvents;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.core.HolderLookup;
@@ -37,6 +38,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.EMERALD_CHESTPLATE,"绿宝石胸甲");
         translationBuilder.add(ModItems.EMERALD_LEGGINGS,"绿宝石护腿");
         translationBuilder.add(ModItems.EMERALD_BOOTS,"绿宝石靴子");
+        translationBuilder.add(ModItems.MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION, "音乐唱片");
 
         translationBuilder.add(ModBlocks.ROSE_GOLD_BLOCK, "玫瑰金块");
 
@@ -44,8 +46,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add("trim_material.asterola.rose_gold", "玫瑰金质");
 
-        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version", "音乐唱片");
-        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version.decs", "Tiktok@justinjmooremusic - You Are Beautiful（呕吐版）");
+        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version.description", "Tiktok@justinjmooremusic - You Are Beautiful（呕吐版）");
 
         translationBuilder.add("armortip.asterola.rose_gold_armortip","§6§n[SHIFT]§r§r");
         translationBuilder.add("armortip.asterola.rose_gold_armortip.shift","§d当装备全套玫瑰金盔甲时，将会获得§r§d§n迅捷II§r§r§d的效果§r");

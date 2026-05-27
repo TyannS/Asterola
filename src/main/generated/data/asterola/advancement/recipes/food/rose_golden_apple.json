@@ -1,16 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_apple": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:apple"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_rose_gold_ingot": {
       "conditions": {
         "items": [
@@ -31,8 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_rose_gold_ingot",
-      "has_apple"
+      "has_rose_gold_ingot"
     ]
   ],
   "rewards": {

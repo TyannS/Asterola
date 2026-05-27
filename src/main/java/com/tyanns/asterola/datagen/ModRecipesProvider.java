@@ -8,6 +8,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 import java.util.concurrent.CompletableFuture;
@@ -49,7 +50,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLDEN_SHOVEL)
@@ -59,7 +59,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLDEN_PICKAXE)
@@ -69,7 +68,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLDEN_AXE)
@@ -79,7 +77,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLDEN_HOE)
@@ -89,7 +86,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.COMBAT, ModItems.ROSE_GOLDEN_SPEAR)
@@ -99,7 +95,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', ModItems.ROSE_GOLD_INGOT)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.COMBAT, ModItems.ROSE_GOLDEN_HELMET)
@@ -139,7 +134,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', ModItems.ROSE_GOLD_INGOT)
                         .define('X', Items.APPLE)
                         .unlockedBy("has_rose_gold_ingot", has(ModItems.ROSE_GOLD_INGOT))
-                        .unlockedBy("has_apple", has(Items.APPLE))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SWORD)
@@ -149,7 +143,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
@@ -159,7 +152,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
@@ -169,7 +161,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE)
@@ -179,7 +170,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
@@ -189,7 +179,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SPEAR)
@@ -199,7 +188,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .define('#', Items.STICK)
                         .define('X', Items.EMERALD)
                         .unlockedBy("has_emerald", has(Items.EMERALD))
-                        .unlockedBy("has_stick", has(Items.STICK))
                         .save(recipeOutput);
 
                 shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET)

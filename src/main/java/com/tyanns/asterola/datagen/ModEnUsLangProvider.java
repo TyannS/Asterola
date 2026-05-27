@@ -37,6 +37,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.EMERALD_CHESTPLATE,"Emerald Chestplate");
         translationBuilder.add(ModItems.EMERALD_LEGGINGS,"Emerald Leggings");
         translationBuilder.add(ModItems.EMERALD_BOOTS,"Emerald Boots");
+        translationBuilder.add(ModItems.MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION, "Music Disc");
 
         translationBuilder.add(ModBlocks.ROSE_GOLD_BLOCK, "Rose Gold Block");
 
@@ -44,8 +45,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add("trim_material.asterola.rose_gold", "Rose Gold Material");
 
-        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version", "Music Disc");
-        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version.decs", "Tiktok@justinjmooremusic - You Are Beautiful (Vomit Version)");
+        translationBuilder.add("item.asterola.music_disc_you_are_beautiful_vomit_version.description", "Tiktok@justinjmooremusic - You Are Beautiful (Vomit Version)");
 
         translationBuilder.add("armortip.asterola.rose_gold_armortip","§6§n[SHIFT]§r§r");
         translationBuilder.add("armortip.asterola.rose_gold_armortip.shift","§dGrants §r§d§nSpeed II§r§r§d when wearing a full set of Rose Gold Armor§r");
