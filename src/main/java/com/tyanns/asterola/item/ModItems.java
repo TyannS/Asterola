@@ -39,7 +39,8 @@ public class ModItems {
     public static final Item EMERALD_CHESTPLATE =registerItem("emerald_chestplate", EmeraldChestplateItem::new);
     public static final Item EMERALD_LEGGINGS =registerItem("emerald_leggings", EmeraldLeggingsItem::new);
     public static final Item EMERALD_BOOTS =registerItem("emerald_boots", EmeraldBootsItem::new);
-    public static final Item MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION = registerItem("music_disc_you_are_beautiful_vomit_version", (new Item.Properties()).stacksTo(1).rarity(Rarity.UNCOMMON).jukeboxPlayable(ModJukeboxSongs.YOU_ARE_BEAUTIFUL_VOMIT_VERSION));
+    public static final Item MUSIC_DISC_YOU_ARE_BEAUTIFUL_VOMIT_VERSION = registerItem("music_disc_you_are_beautiful_vomit_version",
+            (new Item.Properties()).stacksTo(1).rarity(Rarity.UNCOMMON).jukeboxPlayable(ModJukeboxSongs.YOU_ARE_BEAUTIFUL_VOMIT_VERSION));
 
     private static Item registerItem(final String name, final Function<Item.Properties, Item> itemFactory, final Item.Properties properties) {
         ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Asterola.MOD_ID, name));

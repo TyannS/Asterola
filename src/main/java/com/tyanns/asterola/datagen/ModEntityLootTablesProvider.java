@@ -16,8 +16,8 @@ import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModLootTablesProvider extends FabricEntityLootSubProvider {
-    public ModLootTablesProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+public class ModEntityLootTablesProvider extends FabricEntityLootSubProvider {
+    public ModEntityLootTablesProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
         super(output, registriesFuture);
     }
 
